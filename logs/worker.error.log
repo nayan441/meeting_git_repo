@@ -1,0 +1,2303 @@
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+Exception in thread Exception in thread Thread-1:
+Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()        
+self.run()self.run()
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+        data = recv(self._sock, socket_read_size)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+    data = recv(self._sock, socket_read_size)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+data = recv(self._sock, socket_read_size)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError:     Connection closed by server.return self._buffer and self._buffer.can_read(timeout)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+        return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer    self._read_from_socket(timeout=timeout,
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+            return _run_code(code, main_globals, None,return _run_code(code, main_globals, None,return _run_code(code, main_globals, None,
+
+
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+        exec(code, run_globals)exec(code, run_globals)
+
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+        main()main()
+
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+            return self.main(*args, **kwargs)return self.main(*args, **kwargs)return self.main(*args, **kwargs)
+
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+        rv = self.invoke(ctx)rv = self.invoke(ctx)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+            return _process_result(sub_ctx.command.invoke(sub_ctx))return _process_result(sub_ctx.command.invoke(sub_ctx))return _process_result(sub_ctx.command.invoke(sub_ctx))
+
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+        return _process_result(sub_ctx.command.invoke(sub_ctx))return _process_result(sub_ctx.command.invoke(sub_ctx))
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+        return ctx.invoke(self.callback, **ctx.params)return ctx.invoke(self.callback, **ctx.params)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+        return callback(*args, **kwargs)return callback(*args, **kwargs)
+
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+          File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+start_worker(queue, quiet=quiet)start_worker(queue, quiet=quiet)
+
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+        Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+        self.register_death()    self.register_death()
+self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+        return execute(conn, stack, raise_on_error)return execute(conn, stack, raise_on_error)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    self.parse_response(connection, '_')    
+self.parse_response(connection, '_')
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+        result = Redis.parse_response(result = Redis.parse_response(
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+        response = connection.read_response()response = connection.read_response()
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+        response = self._parser.read_response()response = self._parser.read_response()
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+        raw = self._buffer.readline()raw = self._buffer.readline()
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+        self._read_from_socket()self._read_from_socket()
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+        raise ConnectionError("Error while reading from socket: %s" %raise ConnectionError("Error while reading from socket: %s" %
+
+redis.exceptionsredis.exceptions..ConnectionErrorConnectionError: : Error while reading from socket: (104, 'Connection reset by peer')Error while reading from socket: (104, 'Connection reset by peer')
+
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+fatal: No remote configured to list refs from.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)    
+data = recv(self._sock, socket_read_size)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+        return sock.recv(*args, **kwargs)return sock.recv(*args, **kwargs)
+
+ConnectionResetError: ConnectionResetError[Errno 104] Connection reset by peer
+: 
+During handling of the above exception, another exception occurred:
+
+[Errno 104] Connection reset by peer
+Traceback (most recent call last):
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+        return _run_code(code, main_globals, None,return _run_code(code, main_globals, None,
+
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)    
+exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+        main()main()
+
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+        click.Group(commands=commands)(prog_name="bench")click.Group(commands=commands)(prog_name="bench")
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)    
+return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    return execute(conn, stack, raise_on_error)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    self.parse_response(connection, '_')
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+    result = Redis.parse_response(
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    response = self._parser.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raw = self._buffer.readline()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions    .self._read_from_socket()ConnectionError
+:   File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+Error while reading from socket: (104, 'Connection reset by peer')
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+fatal: No remote configured to list refs from.
+11:53:12 Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 1013, in perform_job
+    rv = job.perform()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/job.py", line 709, in perform
+    self._result = self._execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/job.py", line 732, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 134, in execute_job
+    method(**kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/core/doctype/user/user.py", line 1126, in create_contact
+    contact.insert(
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/model/document.py", line 255, in insert
+    self._validate_links()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/model/document.py", line 908, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/__init__.py", line 503, in throw
+    msgprint(
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/__init__.py", line 478, in msgprint
+    _raise_exception()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/__init__.py", line 433, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find User Id: ynayan93@gmail.com
+
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    return execute(conn, stack, raise_on_error)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    /opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+fatal: No remote configured to list refs from.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+        data = recv(self._sock, socket_read_size)
+    data = recv(self._sock, socket_read_size)
+data = recv(self._sock, socket_read_size)  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+            return sock.recv(*args, **kwargs)return sock.recv(*args, **kwargs)
+return sock.recv(*args, **kwargs)
+
+ConnectionResetErrorConnectionResetErrorConnectionResetError: [Errno 104] Connection reset by peer: : 
+[Errno 104] Connection reset by peer[Errno 104] Connection reset by peer
+During handling of the above exception, another exception occurred:
+
+
+
+Traceback (most recent call last):
+
+During handling of the above exception, another exception occurred:
+
+
+During handling of the above exception, another exception occurred:
+
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+            return _run_code(code, main_globals, None,return _run_code(code, main_globals, None,
+
+return _run_code(code, main_globals, None,  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+            exec(code, run_globals)exec(code, run_globals)
+exec(code, run_globals)
+
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+        main()main()
+
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+            click.Group(commands=commands)(prog_name="bench")click.Group(commands=commands)(prog_name="bench")
+click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+        return self.main(*args, **kwargs)return self.main(*args, **kwargs)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+        rv = self.invoke(ctx)rv = self.invoke(ctx)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+        return _process_result(sub_ctx.command.invoke(sub_ctx))return _process_result(sub_ctx.command.invoke(sub_ctx))
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+        return _process_result(sub_ctx.command.invoke(sub_ctx))return _process_result(sub_ctx.command.invoke(sub_ctx))
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+        return ctx.invoke(self.callback, **ctx.params)return ctx.invoke(self.callback, **ctx.params)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)    
+return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+            start_worker(queue, quiet=quiet)start_worker(queue, quiet=quiet)
+
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+            Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+        self.register_death()self.register_death()
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    return execute(conn, stack, raise_on_error)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    return execute(conn, stack, raise_on_error)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    return execute(conn, stack, raise_on_error)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    self.parse_response(connection, '_')
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    self.parse_response(connection, '_')
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+        response = connection.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+result = Redis.parse_response(    result = Redis.parse_response(
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+        response = connection.read_response()response = self._parser.read_response()
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    response = connection.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+    raw = self._buffer.readline()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    response = self._parser.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    response = self._parser.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    self._read_from_socket()
+      File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+raw = self._buffer.readline()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    raw = self._buffer.readline()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+        self._read_from_socket()raise ConnectionError("Error while reading from socket: %s" %
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError    : Error while reading from socket: (104, 'Connection reset by peer')self._read_from_socket()
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+            self.run()self.run()
+self.run()
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+        response = self.parse_response(block=False, timeout=timeout)response = self.parse_response(block=False, timeout=timeout)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+          File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+if not block and not conn.can_read(timeout=timeout):if not block and not conn.can_read(timeout=timeout):
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+        self._read_from_socket(timeout=timeout,self._read_from_socket(timeout=timeout,
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+        raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+
+redis.exceptionsredis.exceptions..ConnectionErrorConnectionError: : Connection closed by server.Connection closed by server.
+
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions    .self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)ConnectionError
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+: Connection closed by server.    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Exception in thread Thread-1    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+        response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+return execute(conn, stack, raise_on_error)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    if not block and not conn.can_read(timeout=timeout):    
+self.parse_response(connection, '_')  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+        result = Redis.parse_response(return self._parser.can_read(timeout)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    response = connection.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    response = self._parser.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    self._read_from_socket(timeout=timeout,    
+raw = self._buffer.readline()  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    
+raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+
+    redis.exceptions.ConnectionErrorself._read_from_socket()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+: Connection closed by server.
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+        return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    self._read_from_socket(timeout=timeout,pubsub.get_message(ignore_subscribe_messages=True,
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+      File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+response = self.parse_response(block=False, timeout=timeout)    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+
+redis.exceptions.  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    ConnectionError: Connection closed by server.
+if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    return execute(conn, stack, raise_on_error)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+        pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+pubsub.get_message(ignore_subscribe_messages=True,
+redis.exceptions.ConnectionError: Connection closed by server.
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+        return self._parser.can_read(timeout)return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    
+self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+        main()
+main()  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+        click.Group(commands=commands)(prog_name="bench")click.Group(commands=commands)(prog_name="bench")
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)    
+rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+        return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+      File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+        return ctx.invoke(self.callback, **ctx.params)return ctx.invoke(self.callback, **ctx.params)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+        return callback(*args, **kwargs)
+return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+        start_worker(queue, quiet=quiet)
+start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+fatal: No remote configured to list refs from.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    sock = self._connect()
+      File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+        self._read_from_socket(timeout=timeout,sock.connect(socket_address)
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+      File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions    return _run_code(code, main_globals, None,
+.  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+ConnectionError    : exec(code, run_globals)Connection closed by server.
+
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+Exception in thread Thread-1Exception in thread Thread-1:
+Traceback (most recent call last):
+:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+        self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+self.run()
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+      File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+fatal: No remote configured to list refs from.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+fatal: No remote configured to list refs from.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+Exception in thread Traceback (most recent call last):
+Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+    self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+        response = self.parse_response(block=False, timeout=timeout)conn = self.connection_pool.get_connection('MULTI',
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+      File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+if not block and not conn.can_read(timeout=timeout):    
+connection.connect()  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+
+      File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+return self._parser.can_read(timeout)
+      File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+raise ConnectionError(self._error_message(e))
+redis.exceptions    .return self._buffer and self._buffer.can_read(timeout)ConnectionError
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    : self._read_from_socket(timeout=timeout,Error 111 connecting to localhost:11004. Connection refused.
+
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+        self.run()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+sock = self._connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 603, in _connect
+        pubsub.get_message(ignore_subscribe_messages=True,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+sock.connect(socket_address)
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    if not block and not conn.can_read(timeout=timeout):
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    main()
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/opt/bench/meeting_management_proj/apps/frappe/frappe/utils/background_jobs.py", line 186, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11004. Connection refused.
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload
+/opt/bench/meeting_management_proj/env/lib/python3.8/site-packages/past/builtins/misc.py:45: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  from imp import reload

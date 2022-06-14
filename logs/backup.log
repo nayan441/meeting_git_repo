@@ -1,0 +1,54 @@
+mysqldump --single-transaction --quick --lock-tables=false -u _bcad64afbf268a6a -p********** _bcad64afbf268a6a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./meeting.dev/private/backups/20220510_180005-meeting_dev-database.sql.gz
+
+Backup Summary for meeting.dev at 2022-05-10 18:00:09.631437
+Config  : ./meeting.dev/private/backups/20220510_180005-meeting_dev-site_config_backup.json 116.0B
+Database: ./meeting.dev/private/backups/20220510_180005-meeting_dev-database.sql.gz         250.8KiB
+Backup for Site meeting.dev has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _bcad64afbf268a6a -p********** _bcad64afbf268a6a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./meeting.dev/private/backups/20220511_120011-meeting_dev-database.sql.gz
+
+Backup Summary for meeting.dev at 2022-05-11 12:00:12.862918
+Config  : ./meeting.dev/private/backups/20220511_120011-meeting_dev-site_config_backup.json 116.0B
+Database: ./meeting.dev/private/backups/20220511_120011-meeting_dev-database.sql.gz         254.6KiB
+Backup for Site meeting.dev has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _bcad64afbf268a6a -p********** _bcad64afbf268a6a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./meeting.dev/private/backups/20220511_180008-meeting_dev-database.sql.gz
+
+Backup Summary for meeting.dev at 2022-05-11 18:00:19.570456
+Config  : ./meeting.dev/private/backups/20220511_180008-meeting_dev-site_config_backup.json 116.0B
+Database: ./meeting.dev/private/backups/20220511_180008-meeting_dev-database.sql.gz         265.8KiB
+Backup for Site meeting.dev has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _bcad64afbf268a6a -p********** _bcad64afbf268a6a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./meeting.dev/private/backups/20220512_120004-meeting_dev-database.sql.gz
+
+Backup Summary for meeting.dev at 2022-05-12 12:00:07.355223
+Config  : ./meeting.dev/private/backups/20220512_120004-meeting_dev-site_config_backup.json 116.0B
+Database: ./meeting.dev/private/backups/20220512_120004-meeting_dev-database.sql.gz         266.2KiB
+Backup for Site meeting.dev has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _bcad64afbf268a6a -p********** _bcad64afbf268a6a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./meeting.dev/private/backups/20220512_180007-meeting_dev-database.sql.gz
+
+Backup Summary for meeting.dev at 2022-05-12 18:00:17.150102
+Config  : ./meeting.dev/private/backups/20220512_180007-meeting_dev-site_config_backup.json 116.0B
+Database: ./meeting.dev/private/backups/20220512_180007-meeting_dev-database.sql.gz         270.9KiB
+Backup for Site meeting.dev has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _bcad64afbf268a6a -p********** _bcad64afbf268a6a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./meeting.dev/private/backups/20220513_120008-meeting_dev-database.sql.gz
+
+Backup Summary for meeting.dev at 2022-05-13 12:00:18.863804
+Config  : ./meeting.dev/private/backups/20220513_120008-meeting_dev-site_config_backup.json 116.0B
+Database: ./meeting.dev/private/backups/20220513_120008-meeting_dev-database.sql.gz         284.9KiB
+Backup for Site meeting.dev has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _bcad64afbf268a6a -p********** _bcad64afbf268a6a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./meeting.dev/private/backups/20220516_120009-meeting_dev-database.sql.gz
+
+Backup Summary for meeting.dev at 2022-05-16 12:00:14.042348
+Config  : ./meeting.dev/private/backups/20220516_120009-meeting_dev-site_config_backup.json 116.0B
+Database: ./meeting.dev/private/backups/20220516_120009-meeting_dev-database.sql.gz         294.8KiB
+Backup for Site meeting.dev has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _bcad64afbf268a6a -p********** _bcad64afbf268a6a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./meeting.dev/private/backups/20220516_180054-meeting_dev-database.sql.gz
+
+Backup Summary for meeting.dev at 2022-05-16 18:01:07.151058
+Config  : ./meeting.dev/private/backups/20220516_180054-meeting_dev-site_config_backup.json 116.0B
+Database: ./meeting.dev/private/backups/20220516_180054-meeting_dev-database.sql.gz         305.5KiB
+Backup for Site meeting.dev has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _bcad64afbf268a6a -p********** _bcad64afbf268a6a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./meeting.dev/private/backups/20220609_120010-meeting_dev-database.sql.gz
+
+Backup Summary for meeting.dev at 2022-06-09 12:00:12.348590
+Config  : ./meeting.dev/private/backups/20220609_120010-meeting_dev-site_config_backup.json 116.0B
+Database: ./meeting.dev/private/backups/20220609_120010-meeting_dev-database.sql.gz         310.6KiB
+Backup for Site meeting.dev has been successfully completed

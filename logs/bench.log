@@ -1,0 +1,193 @@
+2022-05-10 12:19:13,294 DEBUG cd /opt/bench/meeting_management_proj && /usr/bin/virtualenv --quiet env -p python3.8
+2022-05-10 12:19:14,082 DEBUG cd /opt/bench/meeting_management_proj && /opt/bench/meeting_management_proj/env/bin/python -m pip install --quiet --upgrade pip
+2022-05-10 12:19:17,487 LOG Getting frappe
+2022-05-10 12:19:17,488 DEBUG cd meeting_management_proj/apps && git clone https://github.com/frappe/frappe.git --branch version-13 --depth 1 --origin upstream
+2022-05-10 12:19:23,989 LOG Installing frappe
+2022-05-10 12:19:23,989 DEBUG cd /opt/bench/meeting_management_proj && /opt/bench/meeting_management_proj/env/bin/python -m pip install --quiet --upgrade -e /opt/bench/meeting_management_proj/apps/frappe 
+2022-05-10 12:20:16,584 DEBUG cd /opt/bench/meeting_management_proj/apps/frappe && yarn install
+2022-05-10 12:21:57,100 DEBUG cd meeting_management_proj && bench build
+2022-05-10 12:21:59,355 INFO /usr/local/bin/bench build
+2022-05-10 12:22:05,568 LOG setting up backups
+2022-05-10 12:22:05,795 LOG backups were set up
+2022-05-10 12:22:05,795 INFO Bench meeting_management_proj initialized
+2022-05-10 12:35:37,666 INFO /usr/local/bin/bench new-site meeting.dev
+2022-05-10 12:37:58,212 INFO /usr/local/bin/bench new-app meeting
+2022-05-10 12:37:59,289 LOG creating new app meeting
+2022-05-10 12:38:27,209 LOG Installing meeting
+2022-05-10 12:38:27,210 DEBUG cd /opt/bench/meeting_management_proj && /opt/bench/meeting_management_proj/env/bin/python -m pip install --quiet --upgrade -e /opt/bench/meeting_management_proj/apps/meeting 
+2022-05-10 12:38:31,862 DEBUG bench build --app meeting
+2022-05-10 12:38:32,129 INFO /usr/local/bin/bench build --app meeting
+2022-05-10 12:39:41,162 INFO /usr/local/bin/bench --site meeting.dev install-app meeting
+2022-05-10 12:40:07,181 INFO /usr/local/bin/bench --site meeting.dev set-config developer_mode 1
+2022-05-10 12:42:27,299 INFO /usr/local/bin/bench start
+2022-05-10 12:42:29,531 INFO /usr/local/bin/bench worker --queue short
+2022-05-10 12:42:29,556 INFO /usr/local/bin/bench worker --queue default
+2022-05-10 12:42:29,663 INFO /usr/local/bin/bench watch
+2022-05-10 12:42:29,704 INFO /usr/local/bin/bench serve --port 8004
+2022-05-10 12:42:29,706 INFO /usr/local/bin/bench worker --queue long
+2022-05-10 12:42:29,859 INFO /usr/local/bin/bench schedule
+2022-05-10 14:33:55,098 INFO /usr/local/bin/bench start
+2022-05-10 14:34:03,828 INFO /usr/local/bin/bench serve --port 8004
+2022-05-10 14:34:03,850 INFO /usr/local/bin/bench watch
+2022-05-10 14:34:04,019 INFO /usr/local/bin/bench schedule
+2022-05-10 14:34:04,040 INFO /usr/local/bin/bench worker --queue short
+2022-05-10 14:34:04,121 INFO /usr/local/bin/bench worker --queue long
+2022-05-10 14:34:04,134 INFO /usr/local/bin/bench worker --queue default
+2022-05-10 18:00:05,239 INFO /usr/local/bin/bench --verbose --site all backup
+2022-05-11 11:26:06,605 INFO /usr/local/bin/bench strat
+2022-05-11 11:26:09,012 WARNING /usr/local/bin/bench strat executed with exit code 2
+2022-05-11 11:30:28,366 INFO /usr/local/bin/bench start
+2022-05-11 11:30:30,530 INFO /usr/local/bin/bench watch
+2022-05-11 11:30:30,545 INFO /usr/local/bin/bench serve --port 8004
+2022-05-11 11:30:30,587 INFO /usr/local/bin/bench worker --queue short
+2022-05-11 11:30:30,591 INFO /usr/local/bin/bench schedule
+2022-05-11 11:30:30,628 INFO /usr/local/bin/bench worker --queue default
+2022-05-11 11:30:30,638 INFO /usr/local/bin/bench worker --queue long
+2022-05-11 12:00:06,256 INFO /usr/local/bin/bench --verbose --site all backup
+2022-05-11 13:17:14,598 INFO /usr/local/bin/bench --site meeting.dev mariadb
+2022-05-11 14:52:14,712 INFO /usr/local/bin/bench start
+2022-05-11 14:52:23,597 INFO /usr/local/bin/bench serve --port 8004
+2022-05-11 14:52:23,712 INFO /usr/local/bin/bench worker --queue short
+2022-05-11 14:52:23,717 INFO /usr/local/bin/bench worker --queue long
+2022-05-11 14:52:23,727 INFO /usr/local/bin/bench schedule
+2022-05-11 14:52:23,753 INFO /usr/local/bin/bench worker --queue default
+2022-05-11 14:52:23,776 INFO /usr/local/bin/bench watch
+2022-05-11 15:03:17,991 INFO /usr/local/bin/bench start
+2022-05-11 15:03:35,189 INFO /usr/local/bin/bench schedule
+2022-05-11 15:03:35,303 INFO /usr/local/bin/bench watch
+2022-05-11 15:03:35,516 INFO /usr/local/bin/bench worker --queue default
+2022-05-11 15:03:35,529 INFO /usr/local/bin/bench serve --port 8004
+2022-05-11 15:03:35,571 INFO /usr/local/bin/bench worker --queue long
+2022-05-11 15:03:35,749 INFO /usr/local/bin/bench worker --queue short
+2022-05-11 15:29:47,876 INFO /usr/local/bin/bench start
+2022-05-11 15:29:54,234 INFO /usr/local/bin/bench schedule
+2022-05-11 15:29:54,301 INFO /usr/local/bin/bench watch
+2022-05-11 15:29:54,372 INFO /usr/local/bin/bench worker --queue default
+2022-05-11 15:29:54,503 INFO /usr/local/bin/bench serve --port 8004
+2022-05-11 15:29:54,694 INFO /usr/local/bin/bench worker --queue long
+2022-05-11 15:29:54,920 INFO /usr/local/bin/bench worker --queue short
+2022-05-11 18:00:06,702 INFO /usr/local/bin/bench --verbose --site all backup
+2022-05-12 11:56:32,303 INFO /usr/local/bin/bench init
+2022-05-12 11:56:40,832 WARNING /usr/local/bin/bench init executed with exit code 2
+2022-05-12 12:00:02,260 INFO /usr/local/bin/bench --verbose --site all backup
+2022-05-12 13:06:59,775 INFO /usr/local/bin/bench init
+2022-05-12 13:07:05,758 WARNING /usr/local/bin/bench init executed with exit code 2
+2022-05-12 13:07:22,555 INFO /usr/local/bin/bench start
+2022-05-12 13:07:26,130 INFO /usr/local/bin/bench worker --queue default
+2022-05-12 13:07:26,133 INFO /usr/local/bin/bench serve --port 8004
+2022-05-12 13:07:26,142 INFO /usr/local/bin/bench worker --queue long
+2022-05-12 13:07:26,143 INFO /usr/local/bin/bench schedule
+2022-05-12 13:07:26,184 INFO /usr/local/bin/bench watch
+2022-05-12 13:07:26,215 INFO /usr/local/bin/bench worker --queue short
+2022-05-12 14:09:00,481 INFO /usr/local/bin/bench start
+2022-05-12 14:09:03,545 INFO /usr/local/bin/bench watch
+2022-05-12 14:09:03,557 INFO /usr/local/bin/bench worker --queue short
+2022-05-12 14:09:03,566 INFO /usr/local/bin/bench worker --queue default
+2022-05-12 14:09:03,582 INFO /usr/local/bin/bench schedule
+2022-05-12 14:09:03,625 INFO /usr/local/bin/bench serve --port 8004
+2022-05-12 14:09:03,642 INFO /usr/local/bin/bench worker --queue long
+2022-05-12 18:00:06,979 INFO /usr/local/bin/bench --verbose --site all backup
+2022-05-12 18:28:58,982 INFO /usr/local/bin/bench start
+2022-05-12 18:29:08,805 INFO /usr/local/bin/bench schedule
+2022-05-12 18:29:08,925 INFO /usr/local/bin/bench worker --queue default
+2022-05-12 18:29:08,955 INFO /usr/local/bin/bench serve --port 8004
+2022-05-12 18:29:08,958 INFO /usr/local/bin/bench worker --queue short
+2022-05-12 18:29:09,025 INFO /usr/local/bin/bench watch
+2022-05-12 18:29:09,027 INFO /usr/local/bin/bench worker --queue long
+2022-05-12 18:31:42,623 INFO /usr/local/bin/bench start
+2022-05-12 18:32:13,693 INFO /usr/local/bin/bench worker --queue long
+2022-05-12 18:32:13,695 INFO /usr/local/bin/bench worker --queue default
+2022-05-12 18:32:13,792 INFO /usr/local/bin/bench worker --queue short
+2022-05-12 18:32:13,846 INFO /usr/local/bin/bench watch
+2022-05-12 18:32:13,902 INFO /usr/local/bin/bench serve --port 8004
+2022-05-12 18:32:14,106 INFO /usr/local/bin/bench schedule
+2022-05-12 19:59:23,964 INFO /usr/local/bin/bench start
+2022-05-12 19:59:47,503 INFO /usr/local/bin/bench worker --queue long
+2022-05-12 19:59:47,508 INFO /usr/local/bin/bench schedule
+2022-05-12 19:59:47,520 INFO /usr/local/bin/bench worker --queue default
+2022-05-12 19:59:47,525 INFO /usr/local/bin/bench watch
+2022-05-12 19:59:47,526 INFO /usr/local/bin/bench worker --queue short
+2022-05-12 19:59:47,528 INFO /usr/local/bin/bench serve --port 8004
+2022-05-13 10:49:55,784 INFO /usr/local/bin/bench start
+2022-05-13 10:50:17,330 INFO /usr/local/bin/bench worker --queue short
+2022-05-13 10:50:17,351 INFO /usr/local/bin/bench worker --queue long
+2022-05-13 10:50:17,392 INFO /usr/local/bin/bench watch
+2022-05-13 10:50:17,418 INFO /usr/local/bin/bench worker --queue default
+2022-05-13 10:50:17,421 INFO /usr/local/bin/bench schedule
+2022-05-13 10:50:17,423 INFO /usr/local/bin/bench serve --port 8004
+2022-05-13 11:13:28,348 INFO /usr/local/bin/bench start
+2022-05-13 11:13:36,385 INFO /usr/local/bin/bench worker --queue default
+2022-05-13 11:13:36,400 INFO /usr/local/bin/bench serve --port 8004
+2022-05-13 11:13:36,533 INFO /usr/local/bin/bench worker --queue short
+2022-05-13 11:13:36,559 INFO /usr/local/bin/bench watch
+2022-05-13 11:13:36,628 INFO /usr/local/bin/bench worker --queue long
+2022-05-13 11:13:36,660 INFO /usr/local/bin/bench schedule
+2022-05-13 11:54:08,963 INFO /usr/local/bin/bench start
+2022-05-13 11:54:15,791 INFO /usr/local/bin/bench schedule
+2022-05-13 11:54:15,969 INFO /usr/local/bin/bench worker --queue long
+2022-05-13 11:54:15,998 INFO /usr/local/bin/bench worker --queue short
+2022-05-13 11:54:16,010 INFO /usr/local/bin/bench serve --port 8004
+2022-05-13 11:54:16,054 INFO /usr/local/bin/bench watch
+2022-05-13 11:54:16,062 INFO /usr/local/bin/bench worker --queue default
+2022-05-13 12:00:07,704 INFO /usr/local/bin/bench --verbose --site all backup
+2022-05-16 11:18:05,123 INFO /usr/local/bin/bench start
+2022-05-16 11:18:11,826 INFO /usr/local/bin/bench serve --port 8004
+2022-05-16 11:18:12,001 INFO /usr/local/bin/bench worker --queue default
+2022-05-16 11:18:12,025 INFO /usr/local/bin/bench worker --queue short
+2022-05-16 11:18:12,043 INFO /usr/local/bin/bench watch
+2022-05-16 11:18:12,104 INFO /usr/local/bin/bench worker --queue long
+2022-05-16 11:18:12,213 INFO /usr/local/bin/bench schedule
+2022-05-16 12:00:08,361 INFO /usr/local/bin/bench --verbose --site all backup
+2022-05-16 15:04:56,353 INFO /usr/local/bin/bench start
+2022-05-16 15:05:03,490 INFO /usr/local/bin/bench watch
+2022-05-16 15:05:03,585 INFO /usr/local/bin/bench worker --queue default
+2022-05-16 15:05:03,587 INFO /usr/local/bin/bench worker --queue long
+2022-05-16 15:05:03,641 INFO /usr/local/bin/bench serve --port 8004
+2022-05-16 15:05:03,657 INFO /usr/local/bin/bench schedule
+2022-05-16 15:05:03,811 INFO /usr/local/bin/bench worker --queue short
+2022-05-16 15:07:19,276 INFO /usr/local/bin/bench start
+2022-05-16 15:07:32,505 INFO /usr/local/bin/bench start
+2022-05-16 15:07:42,925 INFO /usr/local/bin/bench watch
+2022-05-16 15:07:42,981 INFO /usr/local/bin/bench serve --port 8004
+2022-05-16 15:07:43,020 INFO /usr/local/bin/bench worker --queue default
+2022-05-16 15:07:43,072 INFO /usr/local/bin/bench schedule
+2022-05-16 15:07:43,190 INFO /usr/local/bin/bench worker --queue long
+2022-05-16 15:07:43,287 INFO /usr/local/bin/bench worker --queue short
+2022-05-16 18:00:54,205 INFO /usr/local/bin/bench --verbose --site all backup
+2022-05-17 13:39:22,011 INFO /usr/local/bin/bench src
+2022-06-08 16:12:15,483 INFO /usr/local/bin/bench start
+2022-06-08 16:12:23,330 INFO /usr/local/bin/bench serve --port 8004
+2022-06-08 16:12:23,341 INFO /usr/local/bin/bench schedule
+2022-06-08 16:12:23,346 INFO /usr/local/bin/bench worker --queue long
+2022-06-08 16:12:23,429 INFO /usr/local/bin/bench watch
+2022-06-08 16:12:23,582 INFO /usr/local/bin/bench worker --queue short
+2022-06-08 16:12:23,611 INFO /usr/local/bin/bench worker --queue default
+2022-06-09 12:00:02,534 INFO /usr/local/bin/bench --verbose --site all backup
+2022-06-13 13:07:39,580 INFO /usr/local/bin/bench start
+2022-06-13 13:07:44,893 INFO /usr/local/bin/bench worker --queue long
+2022-06-13 13:07:44,969 INFO /usr/local/bin/bench schedule
+2022-06-13 13:07:45,039 INFO /usr/local/bin/bench watch
+2022-06-13 13:07:45,299 INFO /usr/local/bin/bench serve --port 8004
+2022-06-13 13:07:45,322 INFO /usr/local/bin/bench worker --queue short
+2022-06-13 13:07:45,364 INFO /usr/local/bin/bench worker --queue default
+2022-06-13 13:59:03,889 INFO /usr/local/bin/bench start
+2022-06-13 13:59:13,922 INFO /usr/local/bin/bench worker --queue long
+2022-06-13 13:59:13,946 INFO /usr/local/bin/bench serve --port 8004
+2022-06-13 13:59:14,161 INFO /usr/local/bin/bench worker --queue short
+2022-06-13 13:59:14,200 INFO /usr/local/bin/bench watch
+2022-06-13 13:59:14,608 INFO /usr/local/bin/bench worker --queue default
+2022-06-13 13:59:14,628 INFO /usr/local/bin/bench schedule
+2022-06-13 14:09:38,502 INFO /usr/local/bin/bench start
+2022-06-13 14:09:57,658 INFO /usr/local/bin/bench worker --queue long
+2022-06-13 14:09:57,968 INFO /usr/local/bin/bench watch
+2022-06-13 14:09:57,973 INFO /usr/local/bin/bench schedule
+2022-06-13 14:09:57,997 INFO /usr/local/bin/bench serve --port 8004
+2022-06-13 14:09:58,064 INFO /usr/local/bin/bench worker --queue short
+2022-06-13 14:09:58,098 INFO /usr/local/bin/bench worker --queue default
+2022-06-13 16:21:24,707 INFO /usr/local/bin/bench --site meeting.dev meeting.tasks.cron
+2022-06-13 16:21:29,670 WARNING /usr/local/bin/bench --site meeting.dev meeting.tasks.cron executed with exit code 2
+2022-06-13 16:21:56,999 INFO /usr/local/bin/bench --site meeting.dev meeting.tasks.cron
+2022-06-13 16:21:57,996 WARNING /usr/local/bin/bench --site meeting.dev meeting.tasks.cron executed with exit code 2
+2022-06-13 16:22:33,317 INFO /usr/local/bin/bench --site meeting.dev execute meeting.tasks.cron
+2022-06-13 16:25:06,167 INFO /usr/local/bin/bench --site meeting.dev execute meeting.tasks.cron
+2022-06-13 16:32:51,576 INFO /usr/local/bin/bench --site meeting.dev execute meeting.tasks.cron

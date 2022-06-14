@@ -1,0 +1,105 @@
+2022-05-11 16:41:48,708 ERROR frappe New Exception collected with id: 2022-05-11 16:41:48.615019-127.0.0.1-1f6
+Site: meeting.dev
+Form Dict: {'doc': '{"name":"Meeting001","owner":"Administrator","creation":"2022-05-11 16:30:52.808403","modified":"2022-05-11 16:39:15.085828","modified_by":"Administrator","idx":0,"docstatus":0,"title":"Shweta","status":"Select","date":"2022-05-10","doctype":"Meeting","agenda":[],"minutes":[],"attendee":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-11 16:49:30,329 ERROR frappe New Exception collected with id: 2022-05-11 16:49:30.208337-127.0.0.1-f2f
+Site: meeting.dev
+Form Dict: {'doc': '{"name":"Meeting001","owner":"Administrator","creation":"2022-05-11 16:30:52.808403","modified":"2022-05-11 16:39:15.085828","modified_by":"Administrator","idx":0,"docstatus":0,"title":"Shwetr","status":"Select","date":"2022-05-10","doctype":"Meeting","agenda":[],"minutes":[],"attendee":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-11 16:49:57,683 ERROR frappe New Exception collected with id: 2022-05-11 16:49:57.469945-127.0.0.1-816
+Site: meeting.dev
+Form Dict: {'doc': '{"name":"Meeting001","owner":"Administrator","creation":"2022-05-11 16:30:52.808403","modified":"2022-05-11 16:39:15.085828","modified_by":"Administrator","idx":0,"docstatus":0,"title":"Shwetr","status":"Select","date":"2022-05-10","doctype":"Meeting","agenda":[],"minutes":[],"attendee":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-12 15:09:04,343 ERROR frappe New Exception collected with id: 2022-05-12 15:09:04.265338-127.0.0.1-46e
+Site: meeting.dev
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Meeting","name":"new-meeting-1","__islocal":1,"__unsaved":1,"owner":"Administrator","status":"Select","title":"vbxcvbcxvb","attendee":[{"docstatus":0,"doctype":"Meeting Attendee","name":"new-meeting-attendee-1","__islocal":1,"__unsaved":1,"owner":"Administrator","attended":0,"meeting_attended":0,"parent":"new-meeting-1","parentfield":"attendee","parenttype":"Meeting","idx":1,"__unedited":false,"attendee":"ankushlonkar6@gmail.com"}]}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-05-12 20:24:15,370 ERROR frappe New Exception collected with id: 2022-05-12 20:24:15.288114-127.0.0.1-8a4
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-12 20:25:43,550 ERROR frappe New Exception collected with id: 2022-05-12 20:25:43.548440-127.0.0.1-00e
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-12 20:29:07,263 ERROR frappe New Exception collected with id: 2022-05-12 20:29:07.194777-127.0.0.1-5b0
+Site: meeting.dev
+Form Dict: {'meeting': 'Meeting002', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-12 20:29:23,811 ERROR frappe New Exception collected with id: 2022-05-12 20:29:23.807022-127.0.0.1-fd0
+Site: meeting.dev
+Form Dict: {'meeting': 'Meeting002', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-12 20:29:30,975 ERROR frappe New Exception collected with id: 2022-05-12 20:29:30.967781-127.0.0.1-34a
+Site: meeting.dev
+Form Dict: {'meeting': 'Meeting002', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-12 20:30:14,327 ERROR frappe New Exception collected with id: 2022-05-12 20:30:14.276296-127.0.0.1-334
+Site: meeting.dev
+Form Dict: {'meeting': 'Meeting002', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-12 20:30:29,177 ERROR frappe New Exception collected with id: 2022-05-12 20:30:29.168285-127.0.0.1-d96
+Site: meeting.dev
+Form Dict: {'meeting': 'Meeting002', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-12 20:31:36,328 ERROR frappe New Exception collected with id: 2022-05-12 20:31:36.268683-127.0.0.1-4a4
+Site: meeting.dev
+Form Dict: {'meeting': 'Meeting002', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-12 20:32:12,776 ERROR frappe New Exception collected with id: 2022-05-12 20:32:12.727687-127.0.0.1-f2d
+Site: meeting.dev
+Form Dict: {'meeting': 'Meeting002', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-12 20:34:17,184 ERROR frappe New Exception collected with id: 2022-05-12 20:34:17.111514-127.0.0.1-327
+Site: meeting.dev
+Form Dict: {'meeting': 'Meeting002', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-12 20:34:40,378 ERROR frappe New Exception collected with id: 2022-05-12 20:34:40.371577-127.0.0.1-1b6
+Site: meeting.dev
+Form Dict: {'meeting': 'Meeting002', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 11:34:22,544 ERROR frappe New Exception collected with id: 2022-05-13 11:34:22.390857-127.0.0.1-bee
+Site: meeting.dev
+Form Dict: {'meeting_name': 'new-meeting-1', 'attendees': '[{"docstatus":0,"doctype":"Meeting Attendee","name":"new-meeting-attendee-1","__islocal":1,"__unsaved":1,"owner":"Administrator","attended":0,"meeting_attended":0,"parent":"new-meeting-1","parentfield":"attendee","parenttype":"Meeting","idx":1,"__unedited":false,"attendee":"ynayan93@gmail.com","full_name":"Nayan Yadav"}]', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 11:39:28,477 ERROR frappe New Exception collected with id: 2022-05-13 11:39:28.403667-127.0.0.1-a29
+Site: meeting.dev
+Form Dict: {'meeting_name': 'new-meeting-1', 'attendees': '[{"docstatus":0,"doctype":"Meeting Attendee","name":"new-meeting-attendee-1","__islocal":1,"__unsaved":1,"owner":"Administrator","attended":0,"meeting_attended":0,"parent":"new-meeting-1","parentfield":"attendee","parenttype":"Meeting","idx":1,"__unedited":false,"attendee":"ynayan93@gmail.com","full_name":"Nayan Yadav"},{"docstatus":0,"doctype":"Meeting Attendee","name":"new-meeting-attendee-2","__islocal":1,"__unsaved":1,"owner":"Administrator","attended":0,"meeting_attended":0,"parent":"new-meeting-1","parentfield":"attendee","parenttype":"Meeting","idx":2,"__unedited":false,"attendee":"ankushlonkar6@gmail.com","full_name":"Ankush Lonkar"}]', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 11:44:55,498 ERROR frappe New Exception collected with id: 2022-05-13 11:44:55.438611-127.0.0.1-633
+Site: meeting.dev
+Form Dict: {'meeting_name': 'new-meeting-1', 'attendees': '[{"docstatus":0,"doctype":"Meeting Attendee","name":"new-meeting-attendee-1","__islocal":1,"__unsaved":1,"owner":"Administrator","attended":0,"meeting_attended":0,"parent":"new-meeting-1","parentfield":"attendee","parenttype":"Meeting","idx":1,"__unedited":false,"attendee":"ynayan93@gmail.com","full_name":"Nayan Yadav"},{"docstatus":0,"doctype":"Meeting Attendee","name":"new-meeting-attendee-2","__islocal":1,"__unsaved":1,"owner":"Administrator","attended":0,"meeting_attended":0,"parent":"new-meeting-1","parentfield":"attendee","parenttype":"Meeting","idx":2,"__unedited":false,"attendee":"ankushlonkar6@gmail.com","full_name":"Ankush Lonkar"}]', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 11:47:16,774 ERROR frappe New Exception collected with id: 2022-05-13 11:47:16.725965-127.0.0.1-94c
+Site: meeting.dev
+Form Dict: {'meeting_name': 'new-meeting-1', 'attendees': '[{"docstatus":0,"doctype":"Meeting Attendee","name":"new-meeting-attendee-1","__islocal":1,"__unsaved":1,"owner":"Administrator","attended":0,"meeting_attended":0,"parent":"new-meeting-1","parentfield":"attendee","parenttype":"Meeting","idx":1,"__unedited":false,"attendee":"ynayan93@gmail.com","full_name":"Nayan Yadav"},{"docstatus":0,"doctype":"Meeting Attendee","name":"new-meeting-attendee-2","__islocal":1,"__unsaved":1,"owner":"Administrator","attended":0,"meeting_attended":0,"parent":"new-meeting-1","parentfield":"attendee","parenttype":"Meeting","idx":2,"__unedited":false,"attendee":"ankushlonkar6@gmail.com","full_name":"Ankush Lonkar"}]', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 11:59:13,189 ERROR frappe New Exception collected with id: 2022-05-13 11:59:13.110234-127.0.0.1-013
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 12:02:15,052 ERROR frappe New Exception collected with id: 2022-05-13 12:02:14.997688-127.0.0.1-776
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 12:03:42,441 ERROR frappe New Exception collected with id: 2022-05-13 12:03:42.376431-127.0.0.1-e40
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 12:22:42,324 ERROR frappe New Exception collected with id: 2022-05-13 12:22:42.252043-127.0.0.1-04a
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 12:23:36,559 ERROR frappe New Exception collected with id: 2022-05-13 12:23:36.512975-127.0.0.1-8e7
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 12:27:33,129 ERROR frappe New Exception collected with id: 2022-05-13 12:27:33.065257-127.0.0.1-425
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 12:28:42,274 ERROR frappe New Exception collected with id: 2022-05-13 12:28:42.213305-127.0.0.1-ed2
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-13 12:29:48,242 ERROR frappe New Exception collected with id: 2022-05-13 12:29:48.178999-127.0.0.1-ab8
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-16 11:51:16,760 ERROR frappe New Exception collected with id: 2022-05-16 11:51:14.333716-127.0.0.1-d81
+Site: meeting.dev
+Form Dict: {'meeting': 'Meeting000', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-16 11:51:50,831 ERROR frappe New Exception collected with id: 2022-05-16 11:51:50.728184-127.0.0.1-6b3
+Site: meeting.dev
+Form Dict: {'meeting': 'Meeting000', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-16 12:01:39,613 ERROR frappe New Exception collected with id: 2022-05-16 12:01:39.521606-127.0.0.1-757
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-16 12:02:34,952 ERROR frappe New Exception collected with id: 2022-05-16 12:02:34.856272-127.0.0.1-a3c
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-16 12:04:07,658 ERROR frappe New Exception collected with id: 2022-05-16 12:04:07.586838-127.0.0.1-1d9
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-16 12:10:16,534 ERROR frappe New Exception collected with id: 2022-05-16 12:10:16.434962-127.0.0.1-e45
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-16 12:10:53,348 ERROR frappe New Exception collected with id: 2022-05-16 12:10:53.249023-127.0.0.1-e9f
+Site: meeting.dev
+Form Dict: {'meeting': 'new-meeting-1', 'cmd': 'meeting.api.send_invitation_emails'}
+2022-05-16 16:19:42,690 ERROR frappe New Exception collected with id: 2022-05-16 16:19:42.625508-127.0.0.1-d43
+Site: meeting.dev
+Form Dict: {'doc': '{"docstatus":0,"doctype":"User","name":"new-user-1","__islocal":1,"__unsaved":1,"owner":"Administrator","enabled":1,"language":"en-GB","send_welcome_email":1,"unsubscribed":0,"desk_theme":"Light","mute_sounds":0,"logout_all_sessions":1,"document_follow_notify":0,"document_follow_frequency":"Daily","thread_notify":1,"send_me_a_copy":0,"allowed_in_mentions":1,"simultaneous_sessions":1,"user_type":"Website User","bypass_restrict_ip_check_if_2fa_enabled":0,"__run_link_triggers":1,"email":"rajatshukla33@gmail.com","first_name":"Rajat","last_name":"Shukla"}', 'cmd': 'frappe.client.save'}
