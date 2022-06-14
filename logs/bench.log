@@ -191,3 +191,7 @@
 2022-06-13 16:22:33,317 INFO /usr/local/bin/bench --site meeting.dev execute meeting.tasks.cron
 2022-06-13 16:25:06,167 INFO /usr/local/bin/bench --site meeting.dev execute meeting.tasks.cron
 2022-06-13 16:32:51,576 INFO /usr/local/bin/bench --site meeting.dev execute meeting.tasks.cron
+2022-06-14 13:40:34,762 INFO /usr/local/bin/bench get-app meeting https://github.com/nayan441/meeting_git_repo.git
+2022-06-14 13:40:37,152 LOG Getting meeting_git_repo
+2022-06-14 13:40:37,153 DEBUG cd ./apps && git clone https://github.com/nayan441/meeting_git_repo.git  --depth 1 --origin upstream
+2022-06-14 13:41:03,947 WARNING /usr/local/bin/bench get-app meeting https://github.com/nayan441/meeting_git_repo.git executed with exit code 1
